@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Downloads – EuroPlex</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: sans-serif;
+      background: #0e1a2b;
+      color: white;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 20px;
+    }
+    .wrap { max-width: 600px; width: 100%; text-align: center; }
+    h1 { font-size: 2rem; margin-bottom: 12px; color: #e85d04; }
+    p  { color: rgba(255,255,255,0.6); margin-bottom: 40px; }
+    .list { display: flex; flex-direction: column; gap: 16px; text-align: left; }
+    .item {
+      background: rgba(255,255,255,0.06);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-radius: 10px;
+      padding: 20px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+    }
+    .item span { font-size: 0.85rem; color: rgba(255,255,255,0.5); }
+    .btn {
+      background: #e85d04;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 6px;
+      font-weight: 700;
+      font-size: 0.85rem;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+    .back {
+      display: inline-block;
+      margin-top: 40px;
+      color: rgba(255,255,255,0.5);
+      font-size: 0.9rem;
+      text-decoration: none;
+    }
+    .back:hover { color: white; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>📥 Downloads</h1>
+    <p>All technical documents and resources available below.</p>
+    <div class="list">
+      <div class="item">
+        <div>
+          <strong>Product Catalogue 2025</strong><br/>
+          <span>PDF · 12.4 MB</span>
+        </div>
+        <a href="files/product-catalogue.pdf" class="btn" download>Download</a>
+      </div>
+      <div class="item">
+        <div>
+          <strong>Installation Guidelines</strong><br/>
+          <span>PDF · 4.1 MB</span>
+        </div>
+        <a href="files/installation-guidelines.pdf" class="btn" download>Download</a>
+      </div>
+      <div class="item">
+        <div>
+          <strong>Certificates &amp; Approvals</strong><br/>
+          <span>ZIP · 8.7 MB</span>
+        </div>
+        <a href="files/certificates.zip" class="btn" download>Download</a>
+      </div>
+      <div class="item">
+        <div>
+          <strong>CAD &amp; BIM Files</strong><br/>
+          <span>ZIP · 22 MB</span>
+        </div>
+        <a href="files/cad-bim-files.zip" class="btn" download>Download</a>
+      </div>
+    </div>
+    <a href="index.html" class="back">← Back to Home</a>
+  </div>
+</body>
+</html>
